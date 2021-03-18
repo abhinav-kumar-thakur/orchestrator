@@ -1,10 +1,3 @@
-# orchestrator
-
-## Installation
-`pip install py-orchestrator`
-
-## Example
-```
 from py_orchestrator.pipeline import Pipeline
 from py_orchestrator.stage import Stage
 
@@ -30,4 +23,3 @@ class TestPipeline:
         pipeline.add_stage(ActorOne)
         pipeline.add_stage(ActorTwo)
         assert pipeline.run() == 10
-```
